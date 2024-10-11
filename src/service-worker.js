@@ -1,3 +1,8 @@
+/*
+  Copyright 2024 Samuel Gavassi Pismel.
+  This file is part of "Search on Youtube", which is licensed under the GNU General Public License version 3 (GPLv3).
+*/
+
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "search-on-youtube",
